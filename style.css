@@ -56,6 +56,53 @@ body {
     height: auto;
 }
 
+.random-info {
+    display: flex;
+    flex-flow: column;
+}
+
+.random-info-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+    padding: 48px 144px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-image-container {
+    padding: 8px;
+    border: 3px #3882f6 solid;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    max-width: 150px;
+    width: auto;
+    height: auto;
+}
+
+.card-text {
+    max-width: 150px;
+    text-align: center;
+}
+
 ul{
     margin: 0px;
     padding: 0px;
